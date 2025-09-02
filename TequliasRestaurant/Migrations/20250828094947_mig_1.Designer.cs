@@ -12,7 +12,7 @@ using TequliasRestaurant.Data;
 namespace TequliasRestaurant.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250827133446_mig_1")]
+    [Migration("20250828094947_mig_1")]
     partial class mig_1
     {
         /// <inheritdoc />
