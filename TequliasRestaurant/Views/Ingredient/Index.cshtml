@@ -3,7 +3,10 @@
     ViewBag.Title = "List of Ingredients";
 }
 
-<h1<h1>Ingredients</h1>
+<h1>Ingredients</h1>
+<a asp-action="Create">Create new Ingredient</a>
+
+
 <table class="table">
     <thead>
         <tr>
@@ -15,15 +18,16 @@
     <tbody>
         @foreach (Ingredient i in Model)
         {
-            <tr>
+             <tr>
                 <td>
-                        @Html.DisplayFor(modelItem => i.Name)
-                            </td>
-                            <td>
+                    @Html.DisplayFor(modelItem => i.Name)
+                </td>
+                  <td>
                                 
-                                <a asp-action="Details" asp-route-id="@i.IngredientId">Details</a> |
-                                 
-                            </td>
+                      <a asp-action="Details" asp-route-id="@i.IngredientId">Details</a> 
+                        <a asp-action="Edit" asp-route-id="@i.IngredientId">Edit</a>
+                          <a asp-action="Delete" asp-route-id="@i.IngredientId">Edit</a> 
+                  </td>
             </tr>
         }
     </tbody>

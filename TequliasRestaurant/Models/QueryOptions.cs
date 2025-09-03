@@ -4,8 +4,8 @@ namespace TequliasRestaurant.Models
 {
     public class QueryOptions<T> where T : class
     {
-        public Expression<Func<T, Object>> OrderBy { get; set; } = null!;
-        public Expression<Func<T, Object>> Where { get; set; } = null!;
+        public Expression<Func<T, bool>> OrderBy { get; set; } = null!;
+        public Expression<Func<T, bool>> Where { get; set; } = null!;
         public string[] includes = Array.Empty<string>();
         public string Includes
         {
