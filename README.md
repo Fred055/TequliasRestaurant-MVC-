@@ -5,10 +5,8 @@ A modern and responsive web application built with ASP.NET Core MVC for managing
 ## 📌 Features
 
 - ✅ Responsive homepage with navigation
-- 📅 Online table reservation system
 - 🧾 Menu listing and categorization
-- 🧑‍🍳 Admin panel for managing dishes and bookings
-- 📥 Contact form for customer inquiries
+- 🧑‍🍳 Admin panel for managing dishes
 - 🧩 Modular MVC architecture with separation of concerns
 
 ## 🛠 Tech Stack
@@ -19,13 +17,12 @@ A modern and responsive web application built with ASP.NET Core MVC for managing
 - **Database**: Entity Framework Core + SQL Server / LocalDB
 - **Other Tools**: LINQ, Data Annotations, Layout Pages
 
-## 🚀 Getting Started
 
 ### Prerequisites
 
 - [.NET 8+ SDK](https://dotnet.microsoft.com/download)
 - Visual Studio 2022 or later
-- SQL Server Express / LocalDB (optional)
+- SQL Server Express / LocalDB
 
 ### Installation
 
