@@ -1,8 +1,8 @@
-﻿using TequliasRestaurant.Models;
+﻿using TequliasRestaurant.Controllers;
 
-namespace TequliasRestaurant.Controllers
+namespace TequliasRestaurant.Models
 {
-    internal class OrderViewModel
+    public class OrderViewModel
     {
         public decimal TotalAmount { get; set; }
         public List<OrderItemViewModel> OrderItems { get; set; }
